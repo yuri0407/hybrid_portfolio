@@ -53,13 +53,32 @@ table {
     vertical-align: top;
 }
 
-th {
+.certificate th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.certificate th{
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.certificate td{
+    padding-bottom: 5px;
+}
+
+.myname th {
     text-align: left;
     padding-right: 20px;
 }
 
-th, td {
+.myname th,td {
     font-size: 12px;
+}
+
+.myname td{
+    text-align: left;
 }
 
 #myname th {
@@ -162,4 +181,8 @@ ul li:nth-child(4)::before {
     text-decoration: none;
     padding: 2px 8px;
     transition: padding 0.2s;
+}
+
+img {
+    height: 450px;
 }
